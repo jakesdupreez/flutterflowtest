@@ -77,6 +77,10 @@ class _UploadimageWidgetState extends State<UploadimageWidget> {
                     context,
                     'https://www.bodytalkwithlucua.com/wp-content/uploads/2019/05/energy-healing.jpg',
                   );
+                  await actions.imagecropper(
+                    context,
+                    '',
+                  );
                 },
                 text: 'Button',
                 options: FFButtonOptions(
